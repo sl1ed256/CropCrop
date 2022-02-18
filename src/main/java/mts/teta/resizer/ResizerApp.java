@@ -1,5 +1,6 @@
 package mts.teta.resizer;
 
+import mts.teta.resizer.imageprocessor.ImageProcessor;
 import picocli.CommandLine;
 
 import javax.imageio.ImageIO;
@@ -22,4 +23,5 @@ public class ResizerApp extends ConsoleAttributes implements Callable<Integer> {
         imageProcessor.processImage(ImageIO.read(inputFile), this);
         return 0;
     }
+
 }
