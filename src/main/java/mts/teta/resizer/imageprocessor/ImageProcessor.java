@@ -7,6 +7,6 @@ import java.awt.image.BufferedImage;
 
 public class ImageProcessor {
 
-    public void processImage(BufferedImage read, ResizerApp resizerApp) {
+    public void processImage(BufferedImage image, ResizerApp app) {
     }
 }
