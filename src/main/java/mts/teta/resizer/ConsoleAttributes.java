@@ -23,8 +23,16 @@ public class ConsoleAttributes {
         return resizeParams;
     }
 
+    public Integer getResizeWidth() {
+        return resizeParams[0];
+    }
+
     public void setResizeWidth(Integer reducedPreviewWidth) {
         resizeParams[0] = reducedPreviewWidth;
+    }
+
+    public Integer getResizeHeight() {
+        return resizeParams[1];
     }
 
     public void setResizeHeight(Integer reducedPreviewHeight) {
@@ -59,21 +67,38 @@ public class ConsoleAttributes {
         this.cropParams = crop;
     }
 
+    public Integer getCropWidth() {
+        return cropParams[0];
+    }
+
     public void setCropWidth(Integer cropWidth) {
         cropParams[0] = cropWidth;
+    }
+
+    public Integer getCropHeight() {
+        return cropParams[1];
     }
 
     public void setCropHeight(Integer cropHeight) {
         cropParams[1] = cropHeight;
     }
 
+    public Integer getCropX() {
+        return cropParams[2];
+    }
+
     public void setCropX(Integer cropX) {
         cropParams[2] = cropX;
     }
 
-    public void setCropY(Integer cropY) {
-        cropParams[4] = cropY;
+    public Integer getCropY() {
+        return cropParams[3];
     }
+
+    public void setCropY(Integer cropY) {
+        cropParams[3] = cropY;
+    }
+
 
     private int blur;
 

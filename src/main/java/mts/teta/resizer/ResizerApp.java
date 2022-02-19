@@ -38,7 +38,7 @@ public class ResizerApp extends ConsoleAttributes implements Callable<Integer> {
         try {
             imageProcessor.processImage(ImageIO.read(inputFile), this);
         } catch (IIOException e) {
-            throw new IIOException("Can't read input file");
+            throw new IIOException("Can't read input file!");
         }
         return 0;
     }
