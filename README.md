@@ -31,7 +31,7 @@ Options Settings:
 
 **--quality value** — sets the compression level for JPEG/PNG files. Image formats can be JPEG and PNG, quality from 1 (lowest image quality and highest compression) to 100 (best quality but least effective compression).
 
-**--crop width height x y** —  Cuts out a rectangular area of the image. The rendered image must have width(**width**) and height(**height**). The reference point is given by the values **x** and **y.**
+**--crop width height x y** — cuts out a rectangular area of the image. The rendered image must have width(**width**) and height(**height**). The reference point is given by the values **x** and **y.**
 
 **--blur radius** — adds blur or sharpens.
 
