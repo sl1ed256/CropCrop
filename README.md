@@ -5,7 +5,7 @@ This program allows you to resize an image
 ## Используемые технологии
 
 - Java.
-- Frameworks:
+- Other:
     - Work with console options [picocli.info](https://picocli.info/).
     - Work with an image [thumbnailator](https://github.com/coobird/thumbnailator).
     - Work with images and videos [marvin project](https://github.com/gabrielarchanjo/marvin-framework).
